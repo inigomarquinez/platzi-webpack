@@ -1,1 +1,1 @@
-console.log('Hola mundo desde Webpack!')
+document.body.innerHTML = "Hola mundo desde Webpack!";
