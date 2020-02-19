@@ -1,1 +1,1 @@
-document.body.innerHTML = "Hola mundo desde Webpack!";
+document.body.innerHTML = "Hello world, from Webpack!";
