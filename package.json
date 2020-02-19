@@ -4,7 +4,8 @@
   "description": "Webpack course @ Platzi",
   "main": "index.js",
   "scripts": {
-    "build:manual": "webpack --entry ./index.js --output ./bundle.js --mode development"
+    "build:manual": "webpack --entry ./index.js --output ./bundle.js --mode development",
+    "build:local": "webpack"
   },
   "repository": {
     "type": "git",

@@ -2,4 +2,5 @@
 
 Webpack course @ Platzi
 
-0. Execution with CLI options through `npm run build:manual`.
+  0. `npm run build:manual`: execution using CLI options.
+  1. `npm run build:local`: execution using default config file `webpack.config.js`.
