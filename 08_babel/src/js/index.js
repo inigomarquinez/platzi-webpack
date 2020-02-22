@@ -1,12 +1,12 @@
 import '../css/index.css';
-import './text';
-import text from './text';
+import search from './search';
+import render from './render';
 
-text();
-
-if (module.hot) {
-  module.hot.accept('./text.js', function() {
-    console.log('HOT RELOAD!');
-    text();
+const id = prompt('Who is that pokemon?');
+search(id)
+  .then(data => {
+    render(data);
+  })
+  .catch(error => {
+    console.log('There was no pokemon!', error.message);
   });
-}
